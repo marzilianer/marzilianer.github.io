@@ -43,6 +43,17 @@ body{
     margin-bottom: 50px;
 }
 
+.card{
+    background-color: yellow;
+    padding-top: 15px;
+    border-top-left-radius: 12;
+    border-top-right-radius: 12px;
+    position: fixed;
+    left: 0;
+    bottom 0;
+    width: 100%;
+}
+
 #info {
     font-size: 30px;
     position: fixed;
