@@ -42,3 +42,10 @@ body{
 #icon{
     margin-bottom: 50px;
 }
+
+#info {
+    font-size: 30px;
+    position: fixed;
+    left: 10px;
+    bottom:10px;
+}
