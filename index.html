@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TicTacToe</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" >
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    </head>
+
+<body>
+    
+    <h1>Das einfachste Tic Tac Toe</h1>
+    
+    <div class="container">
+        <div class="centered" id="icon">
+            <img src="img/Underground.png" height="85px" alt="" />
+        </div>
+
+        <div class="row border-b">
+            <div id="0" onclick="handleclick('0');" class="col border-r"></div>
+            <div id="1" onclick="handleclick('1');" class="col border-r"></div>
+            <div id="2" onclick="handleclick('2');" class="col"></div>
+        </div>
+
+        <div class="row border-b">
+            <div id="3" onclick="handleclick('3');" class="col border-r"></div>
+            <div id="4" onclick="handleclick('4');" class="col border-r"></div>
+            <div id="5" onclick="handleclick('5');" class="col"></div>
+        </div>
+
+        <div class="row">
+            <div id="6" onclick="handleclick('6');" class="col border-r"></div>
+            <div id="7" onclick="handleclick('7');" class="col border-r"></div>
+            <div id="8" onclick="handleclick('8');" class="col"></div>
+        </div>
+        <br />
+    </div>
+
+    <div class="centered card" id="card">
+        <ion-icon id="info" name="information-circle-outline"></ion-icon>
+        <div id="status">
+                Bisher gewonnen: <b id="wincount">0</b><b>Spiele</b>
+        </div>
+        <ion-icon onclick="reset" name="refresh-circle-outline"></ion-icon>
+
+        <script src="script.js"></script>
+
+
+
+
+</div>
+
+
+<footer>
+
+    <p>Anleitung zum Selber programmieren</p>
+    
+    
+
+</footer>
+</html>
+
+
