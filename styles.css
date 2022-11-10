@@ -46,9 +46,9 @@ body{
 .card{
     background-color: yellow;
     padding-top: 15px;
-    border-top-left-radius: 12;
-    border-top-right-radius: 12px;
-    position: fixed;
+    border-top-left-radius: 5;
+    border-top-right-radius: 5px;
+    position: 500px;
     left: 0;
     bottom 0;
     width: 100%;
