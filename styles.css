@@ -48,9 +48,9 @@ body{
     padding-top: 15px;
     border-top-left-radius: 12;
     border-top-right-radius: 12px;
-    position: fixed;
+    position: 500px;
     left: 0;
-    bottom 5000px;
+    bottom 0;
     width: 100%;
 }
 
