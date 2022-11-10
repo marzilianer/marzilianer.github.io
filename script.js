@@ -160,3 +160,4 @@ function setWinner( winner, winningline )
         document.getElementById("status").innerHTML = 'Du hast verloren';
     }
 }
+
