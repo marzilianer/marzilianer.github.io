@@ -28,7 +28,7 @@ body{
 }
 
 .col:hover{
-    background-color:aquamarine !important;
+    background-color:red !important;
 }
 
 .border-r{
