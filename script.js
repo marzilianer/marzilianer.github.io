@@ -161,3 +161,15 @@ function setWinner( winner, winningline )
     }
 }
 
+<div class="centered card" id="card">
+        <ion-icon id="info" name="information-circle-outline"></ion-icon>
+        <div id="status">
+            Bisher gewonnen: <b id="wincount">0</b><b>Spiele</b>
+        </div>
+        <ion-icon onclick="onreset" name="refresh-circle-outline"></ion-icon>
+
+        <script src="script.js"></script>
+
+
+
+ </div>
