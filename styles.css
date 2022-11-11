@@ -18,14 +18,7 @@ body{
     border-bottom: 10px solid black;
 }
 
-.col{
-    height: 100px;
-    width: 100px;
-    float: left;
-    font-size: 100px;
-    text-align: center;
-    line-height: 100px;
-}
+
 
 .col:hover{
     background-color:yellow !important;
